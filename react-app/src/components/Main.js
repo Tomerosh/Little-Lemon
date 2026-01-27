@@ -4,7 +4,7 @@ import Homepage from "./HomePage"
 import BookingPage from "./BookingPage"
 
 export default function Main() {
-    return <main className="container">
+    return <main>
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/booking" element={<BookingPage/>}></Route>
