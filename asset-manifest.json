@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/little-lemon-front-end-project-/static/css/main.6feda493.css",
+    "main.js": "/little-lemon-front-end-project-/static/js/main.e86fd724.js",
+    "static/js/453.958ef951.chunk.js": "/little-lemon-front-end-project-/static/js/453.958ef951.chunk.js",
+    "static/media/bruchetta.svg": "/little-lemon-front-end-project-/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/little-lemon-front-end-project-/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/food-tray.jpg": "/little-lemon-front-end-project-/static/media/food-tray.e8abf5b772b6817189aa.jpg",
+    "static/media/MarkaziText-VariableFont_wght.ttf": "/little-lemon-front-end-project-/static/media/MarkaziText-VariableFont_wght.f80801a527bd8690ddc8.ttf",
+    "static/media/pasta.jpg": "/little-lemon-front-end-project-/static/media/pasta.068e128bb7099cbae02f.jpg",
+    "static/media/IBMPlexMono-Light.ttf": "/little-lemon-front-end-project-/static/media/IBMPlexMono-Light.5f8964c0e207956b74c6.ttf",
+    "static/media/logo_footer.png": "/little-lemon-front-end-project-/static/media/logo_footer.2c859235d6c57bb54176.png",
+    "static/media/Karla-VariableFont_wght.ttf": "/little-lemon-front-end-project-/static/media/Karla-VariableFont_wght.57b2b5cb4aaea2f92e59.ttf",
+    "static/media/DMSerifText-Regular.ttf": "/little-lemon-front-end-project-/static/media/DMSerifText-Regular.55cfbfdd07bcb42af61d.ttf",
+    "static/media/Logo.svg": "/little-lemon-front-end-project-/static/media/Logo.2c379c7ea7eb07402bfc7700915316de.svg",
+    "index.html": "/little-lemon-front-end-project-/index.html",
+    "static/media/Basket.svg": "/little-lemon-front-end-project-/static/media/Basket.07e27ef8e2d39d8d311117a6b04ece1d.svg",
+    "static/media/icon _hamburger menu.svg": "/little-lemon-front-end-project-/static/media/icon _hamburger menu.0da6f67ced800ab909f63d5144de37ee.svg",
+    "main.6feda493.css.map": "/little-lemon-front-end-project-/static/css/main.6feda493.css.map",
+    "main.e86fd724.js.map": "/little-lemon-front-end-project-/static/js/main.e86fd724.js.map",
+    "453.958ef951.chunk.js.map": "/little-lemon-front-end-project-/static/js/453.958ef951.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6feda493.css",
+    "static/js/main.e86fd724.js"
+  ]
+}
