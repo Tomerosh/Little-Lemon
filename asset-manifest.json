@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Little-Lemon-Front-End-Project-/static/css/main.44532688.css",
-    "main.js": "/Little-Lemon-Front-End-Project-/static/js/main.f10cdb5a.js",
-    "static/js/453.958ef951.chunk.js": "/Little-Lemon-Front-End-Project-/static/js/453.958ef951.chunk.js",
-    "static/media/bruchetta.svg": "/Little-Lemon-Front-End-Project-/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
-    "static/media/greek salad.jpg": "/Little-Lemon-Front-End-Project-/static/media/greek salad.bed423a1fab5b210e347.jpg",
-    "static/media/food-tray.jpg": "/Little-Lemon-Front-End-Project-/static/media/food-tray.e8abf5b772b6817189aa.jpg",
-    "static/media/MarkaziText-VariableFont_wght.ttf": "/Little-Lemon-Front-End-Project-/static/media/MarkaziText-VariableFont_wght.f80801a527bd8690ddc8.ttf",
-    "static/media/pasta.jpg": "/Little-Lemon-Front-End-Project-/static/media/pasta.068e128bb7099cbae02f.jpg",
-    "static/media/IBMPlexMono-Light.ttf": "/Little-Lemon-Front-End-Project-/static/media/IBMPlexMono-Light.5f8964c0e207956b74c6.ttf",
-    "static/media/logo_footer.png": "/Little-Lemon-Front-End-Project-/static/media/logo_footer.2c859235d6c57bb54176.png",
-    "static/media/Karla-VariableFont_wght.ttf": "/Little-Lemon-Front-End-Project-/static/media/Karla-VariableFont_wght.57b2b5cb4aaea2f92e59.ttf",
-    "static/media/DMSerifText-Regular.ttf": "/Little-Lemon-Front-End-Project-/static/media/DMSerifText-Regular.55cfbfdd07bcb42af61d.ttf",
-    "static/media/Logo.svg": "/Little-Lemon-Front-End-Project-/static/media/Logo.2c379c7ea7eb07402bfc7700915316de.svg",
-    "index.html": "/Little-Lemon-Front-End-Project-/index.html",
-    "static/media/Basket.svg": "/Little-Lemon-Front-End-Project-/static/media/Basket.07e27ef8e2d39d8d311117a6b04ece1d.svg",
-    "static/media/icon _hamburger menu.svg": "/Little-Lemon-Front-End-Project-/static/media/icon _hamburger menu.0da6f67ced800ab909f63d5144de37ee.svg",
-    "main.44532688.css.map": "/Little-Lemon-Front-End-Project-/static/css/main.44532688.css.map",
-    "main.f10cdb5a.js.map": "/Little-Lemon-Front-End-Project-/static/js/main.f10cdb5a.js.map",
-    "453.958ef951.chunk.js.map": "/Little-Lemon-Front-End-Project-/static/js/453.958ef951.chunk.js.map"
+    "main.css": "/Little-Lemon/static/css/main.6bd1dcfd.css",
+    "main.js": "/Little-Lemon/static/js/main.9b1ae70d.js",
+    "static/js/453.958ef951.chunk.js": "/Little-Lemon/static/js/453.958ef951.chunk.js",
+    "static/media/bruchetta.svg": "/Little-Lemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/Little-Lemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/food-tray.jpg": "/Little-Lemon/static/media/food-tray.e8abf5b772b6817189aa.jpg",
+    "static/media/MarkaziText-VariableFont_wght.ttf": "/Little-Lemon/static/media/MarkaziText-VariableFont_wght.f80801a527bd8690ddc8.ttf",
+    "static/media/pasta.jpg": "/Little-Lemon/static/media/pasta.068e128bb7099cbae02f.jpg",
+    "static/media/IBMPlexMono-Light.ttf": "/Little-Lemon/static/media/IBMPlexMono-Light.5f8964c0e207956b74c6.ttf",
+    "static/media/logo_footer.png": "/Little-Lemon/static/media/logo_footer.2c859235d6c57bb54176.png",
+    "static/media/Karla-VariableFont_wght.ttf": "/Little-Lemon/static/media/Karla-VariableFont_wght.57b2b5cb4aaea2f92e59.ttf",
+    "static/media/DMSerifText-Regular.ttf": "/Little-Lemon/static/media/DMSerifText-Regular.55cfbfdd07bcb42af61d.ttf",
+    "static/media/Logo.svg": "/Little-Lemon/static/media/Logo.2c379c7ea7eb07402bfc7700915316de.svg",
+    "index.html": "/Little-Lemon/index.html",
+    "static/media/Basket.svg": "/Little-Lemon/static/media/Basket.07e27ef8e2d39d8d311117a6b04ece1d.svg",
+    "static/media/icon _hamburger menu.svg": "/Little-Lemon/static/media/icon _hamburger menu.0da6f67ced800ab909f63d5144de37ee.svg",
+    "main.6bd1dcfd.css.map": "/Little-Lemon/static/css/main.6bd1dcfd.css.map",
+    "main.9b1ae70d.js.map": "/Little-Lemon/static/js/main.9b1ae70d.js.map",
+    "453.958ef951.chunk.js.map": "/Little-Lemon/static/js/453.958ef951.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44532688.css",
-    "static/js/main.f10cdb5a.js"
+    "static/css/main.6bd1dcfd.css",
+    "static/js/main.9b1ae70d.js"
   ]
 }
