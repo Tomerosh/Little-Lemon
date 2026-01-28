@@ -5,7 +5,7 @@ import BookingPage from "./BookingPage"
 
 export default function Main() {
     return <main>
-      <Routes>
+      <Routes >
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/booking" element={<BookingPage/>}></Route>
       </Routes>
