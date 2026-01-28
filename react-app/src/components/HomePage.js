@@ -5,10 +5,12 @@ import pasta from "../assets/images/pasta.jpg"
 export default function HomePage() {
   return (
     <>
-      <article className="hero-section">
+      <section className="hero-section">
         <div>
+          <div className="title">
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
+          </div>
           <p>
             Taste the Mediterranean by the sea. fresh ingredients, vibrant
             flavors, and warm hospitality, inviting you to relax and savor every
@@ -19,7 +21,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div id="img" />
-      </article>
+      </section>
       <section className="highlights">
         <div>
           <h2>Our Specials</h2>

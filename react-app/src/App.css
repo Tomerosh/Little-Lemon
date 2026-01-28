@@ -115,6 +115,7 @@ nav {
 .navLink{
   font-family: 'IBM';
   font-weight: 700;
+  font-size: clamp(12px, 1.5vw, 22px);
   padding: 0;
   text-align: center;
   color: #495E57;
@@ -148,8 +149,7 @@ h1 {
 h2 {
   font-family: 'Markazi';
   font-weight: 400;
-  font-size: 32px;
-  font-size: clamp(18px, 4vw, 42px) ;
+  font-size: clamp(14px, 3vw, 32px) ;
   color: white;
   margin-block: 0px;
 }
@@ -160,20 +160,22 @@ h2 {
   justify-content: center;
   text-align: left;
   background-color: #495E57;
-  padding-inline: 15vw;
-  padding-block: 5vw;
 
 }
 .hero-section > div {
   display: flex;
   flex-direction: column;
   align-items: start;
+  justify-content: space-between;
   
 }
 .hero-section > div > p {
   font-family: 'Karla';
   color: white;
   font-size: clamp(12px, 2.5vw, 26px);
+}
+.hero-section > div > .button {
+  justify-self: flex-end;
 }
 
 #img {
@@ -192,12 +194,17 @@ h2 {
 }
 
 section {
-  flex: 1;
-  padding-inline: 10vw;
+  padding-inline: 20vw;
   padding-block: 40px;
   
 }
 
+.highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  justify-content: center;
+}
 .highlights div {
   display: flex;
   justify-content: space-between;
@@ -205,26 +212,19 @@ section {
 }
 .highlights > div > h2 {
   color: #000;
+  font-family: 'Markazi';
+  font-weight: 600;
+  font-size: clamp(28px, 3vw, 72px);
 }
 
-#cardbox {
-  display: flex;
-  flex: 1;
-  gap: 1vw;
-  justify-content: space-evenly;
-  align-items: start;
-  width: 100%;
-  padding: 5vw;
-  justify-self: center;
-}
 .button {
   background-color: #F4CE14;
   color: #000;
   text-decoration-line: none;
-  padding-inline: 4vw;
+  padding-inline: 2vw;
   padding-block: .5vw;
   border-radius: 28px;
-  font-size: clamp(14px, 2.5vw, 28px);
+  font-size: clamp(14px, 2.5vw, 24px);
   font-weight: 900;
   font-family: 'Karla';
   cursor: pointer;
@@ -236,13 +236,21 @@ section {
   transition: .1s ease;
 }
 
+#cardbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1.75vw;
+  justify-content: center;
+  align-items: start;
+}
 .card {
   display: flex;
-  flex: 1;
+  width: 19vw;
   flex-direction: column;
   background-color: #E9E9E9;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
+  cursor: pointer;
 }
 .card-content {
   display: flex;
@@ -252,10 +260,14 @@ section {
 
 }
 .card > img {
-  
   width: 100%;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
+  transition: .3s ease;
+}
+.card > img:hover {
+  opacity: .75;
+  transition: .3s ease;
 }
 .card-title {
   margin: 1vw;
@@ -266,17 +278,18 @@ section {
 .card-title > h3 {
   margin: 0px;
   font-family: 'Karla';
-  font-size: clamp(12px, 2.5vw, 40px);
+  font-size: clamp(12px, 2vw, 28px);
 }
 .card-title > h4 {
   margin: 0px;
   font-family: 'Karla';
-  font-size: 2vw;
-  color: #F4CE14;
+  font-size: clamp(12px, 1.5vw, 24px);
+  color: #ffa74eb6;
+  font-weight: 600;
 }
 .card-content > p {
   font-family: 'Karla';
-  font-size: clamp(12px, 2.5vw, 24px);
+  font-size: clamp(12px, 1vw, 24px);
   width: 90%;
 }
 
@@ -394,5 +407,14 @@ nav #logo {
   height: 100%;
   top: 0%;
   left: 0%;
+}
+
+section {
+  padding-inline: 10vw;
+  padding-block: 4vw;
+  
+}
+.card {
+  width: 27vw;
 }
 }
