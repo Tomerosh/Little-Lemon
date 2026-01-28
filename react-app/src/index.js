@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/little-lemon-front-end-project-' >
+    <BrowserRouter basename='/Little-Lemon' >
       <App />
     </BrowserRouter>
   </React.StrictMode>
