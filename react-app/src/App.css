@@ -56,11 +56,11 @@ footer > ul {
 
 footer > ul > li{
   color: #fff;
-  font-size: small;
   
 }
 footer > ul > li > .navLink{
   color: #fff;
+  font-size: clamp(12px, 1vw, 16px);
   
 }
 
@@ -308,7 +308,10 @@ section h2 {
 }
 
 .testimonials {
+  display: flex;
+  flex-direction: column;
   background-color: #495E57;
+  gap: 1vw;
 }
 
 .testimonials h2 {
@@ -317,16 +320,100 @@ section h2 {
 }
 .testimonials > div {
   display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 1vw;
 
 }
 
 .testimonials-card {
   display: flex;
+  flex-direction: column;
   background-color: #fff;
+  width: 25vw;
+  align-items: center;
+  padding: 1%;
+  padding-top: 3%;
+}
+.testimonials-card > div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Karla';
+  font-weight: 600;
+  font-size: clamp(12px, 2vw, 24px);
+}
+.testimonials-card > p{
+  font-family: 'Karla';
+  font-weight: 500;
+  font-size: clamp(12px, 1.5vw, 24px);
 }
 
-.about h2{
+#about{
+  display: flex;
+  gap: 1vw;
+}
+#about > div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Karla';
+  font-size: clamp(14px, 1.75vw, 32px);
+  font-weight: 600;
+
+}
+#about > div:last-child{
+  display: grid;
+  grid-template-areas: 'overlap';
+  width: 100%;
+  overflow: hidden;
+
+}
+#about > div > .img:first-child{
+  grid-area: overlap;
+  width:  55%;
+  height: 65%;
+  background-color: #F4CE14;
+  background-image: url("assets/images/restaurant.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  align-self: flex-end;
+}
+#about > div > .img:nth-child(2){
+  grid-area: overlap;
+  width: 75%;
+  height: 75%;
+  background-color: #495E57;
+  background-image: url("assets/images/restaurant chef.jpg");
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+  justify-self: flex-end;
+  align-self: center;
+  transform: translate(5vw, -5vw); /* Move the second image down and right */
+
+
+
+}
+#about h2{
   color: black
+}
+.avatar {
+  width: 40%;
+  mask-image: radial-gradient(circle at center, black 50%, transparent 50%);
+  -webkit-mask-image: radial-gradient(circle at center, black 50%, transparent 50%); /* For wider browser support */
+
+
+}
+.stars {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stars > img {
+  width: 15%;
+  width: clamp(15px, 15%, 32px);
 }
 
 @media screen and (max-width: 960px) {
