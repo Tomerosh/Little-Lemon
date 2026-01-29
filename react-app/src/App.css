@@ -228,7 +228,7 @@ section {
   font-weight: 900;
   font-family: 'Karla';
   cursor: pointer;
-  transition: 1s ease;
+  
 }
 
 .button:active {
@@ -314,6 +314,15 @@ section h2 {
 .testimonials h2 {
   color: #F4CE14;
   text-align: center;
+}
+.testimonials > div {
+  display: flex;
+
+}
+
+.testimonials-card {
+  display: flex;
+  background-color: #fff;
 }
 
 .about h2{

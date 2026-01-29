@@ -68,6 +68,11 @@ export default function HomePage() {
       </section>
       <section className="testimonials">
         <h2>Testimonials</h2>
+        <div>
+          <div className="testimonials-card">
+            
+          </div>
+        </div>
       </section>
       <section className="about">
         <h2>About</h2>
