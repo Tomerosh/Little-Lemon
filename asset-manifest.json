@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Little-Lemon/static/css/main.8d563f77.css",
-    "main.js": "/Little-Lemon/static/js/main.af3005e0.js",
+    "main.css": "/Little-Lemon/static/css/main.95a3ddda.css",
+    "main.js": "/Little-Lemon/static/js/main.d339a53c.js",
     "static/js/453.958ef951.chunk.js": "/Little-Lemon/static/js/453.958ef951.chunk.js",
     "static/media/margaret.jpg": "/Little-Lemon/static/media/margaret.87373961f4b4a3dc7a41.jpg",
-    "static/media/bruchetta.svg": "/Little-Lemon/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/bruchetta.svg": "/Little-Lemon/static/media/bruchetta.ec4950d4eabf4293f4120e3b6c48b7cf.svg",
     "static/media/restaurant chef.jpg": "/Little-Lemon/static/media/restaurant chef.4b4c2d26b514db32e8fc.jpg",
     "static/media/greek salad.jpg": "/Little-Lemon/static/media/greek salad.bed423a1fab5b210e347.jpg",
     "static/media/food-tray.jpg": "/Little-Lemon/static/media/food-tray.e8abf5b772b6817189aa.jpg",
@@ -17,17 +17,17 @@
     "static/media/logo_footer.png": "/Little-Lemon/static/media/logo_footer.2c859235d6c57bb54176.png",
     "static/media/Karla-VariableFont_wght.ttf": "/Little-Lemon/static/media/Karla-VariableFont_wght.57b2b5cb4aaea2f92e59.ttf",
     "static/media/DMSerifText-Regular.ttf": "/Little-Lemon/static/media/DMSerifText-Regular.55cfbfdd07bcb42af61d.ttf",
-    "static/media/Logo.svg": "/Little-Lemon/static/media/Logo.2c379c7ea7eb07402bfc7700915316de.svg",
+    "static/media/Logo.svg": "/Little-Lemon/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
     "static/media/star.png": "/Little-Lemon/static/media/star.d0cbd94e0a4a62fc2bf4.png",
     "index.html": "/Little-Lemon/index.html",
-    "static/media/Basket.svg": "/Little-Lemon/static/media/Basket.07e27ef8e2d39d8d311117a6b04ece1d.svg",
-    "static/media/icon _hamburger menu.svg": "/Little-Lemon/static/media/icon _hamburger menu.0da6f67ced800ab909f63d5144de37ee.svg",
-    "main.8d563f77.css.map": "/Little-Lemon/static/css/main.8d563f77.css.map",
-    "main.af3005e0.js.map": "/Little-Lemon/static/js/main.af3005e0.js.map",
+    "static/media/Basket.svg": "/Little-Lemon/static/media/Basket.fae9b50adb46a3bfa9273d6c25dc3935.svg",
+    "static/media/icon _hamburger menu.svg": "/Little-Lemon/static/media/icon _hamburger menu.2cba90d9a2294d6ec4901bf28d25c693.svg",
+    "main.95a3ddda.css.map": "/Little-Lemon/static/css/main.95a3ddda.css.map",
+    "main.d339a53c.js.map": "/Little-Lemon/static/js/main.d339a53c.js.map",
     "453.958ef951.chunk.js.map": "/Little-Lemon/static/js/453.958ef951.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d563f77.css",
-    "static/js/main.af3005e0.js"
+    "static/css/main.95a3ddda.css",
+    "static/js/main.d339a53c.js"
   ]
 }
