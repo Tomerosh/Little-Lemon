@@ -8,10 +8,6 @@ import { Link } from "react-router";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
-  
-    useEffect(() => {
-        console.log(menuOpen)
-    }, [menuOpen])
 
   return (
     <nav style={{ position: menuOpen ? "sticky" : "relative" }}>
