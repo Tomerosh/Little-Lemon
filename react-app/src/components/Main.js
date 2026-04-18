@@ -28,14 +28,17 @@ export default function Main() {
 
   }
   async function fetchData() {
+    /*fetch("https://raw.githubusercontent.com/courseraap/capstone/main/api.js")
+    .then((response) => response.text()
+    .then(res => console.log(res))
+    )
+    .catch((error) => console.log(error));
+    */
   }
   const [availableTimes, changeTimes] = useReducer(updateTimes, initializeTimes())
 
   useEffect(() => {
-    const api = document.createElement('script')
-    api.src = "https://raw.githubusercontent.com/courseraap/capstone/main/api.js"
-
-    document.body.appendChild(api)
+    fetchData()
 
   }, [])
   return <main>

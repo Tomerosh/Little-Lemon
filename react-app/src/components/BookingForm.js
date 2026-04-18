@@ -2,16 +2,22 @@ import { useEffect, useState } from "react";
 
 export default function BookingForm({availableTimes, changeTimes}) {
    
-  const dat = new Date().toLocaleDateString().split('.');
-   
-   const day = dat[0].length === 1? 0 + dat[0]: dat[0]
-   const month = dat[1].length === 1? 0 + dat[1]: dat[1]
-   const year = dat[2]
-   const today = year + "-" + month + "-" + day
-   const [ date, setDate ] = useState(today)
-   const [ time, setTime ] = useState("")
-   const [ guests, setGuests ] = useState(2)
-   const [ occasion, setOccasion ] = useState("")
+  function getToday() {
+      
+    const dat = new Date().toLocaleDateString().split('/');
+    const day = dat[0].length === 1? 0 + dat[0]: dat[0]
+
+    const month = dat[1].length === 1? 0 + dat[1]: dat[1]
+
+    const year = dat[2]
+    return year + "-" + month + "-" + day
+  }
+  const today = getToday()
+
+  const [ date, setDate ] = useState(today)
+  const [ time, setTime ] = useState("")
+  const [ guests, setGuests ] = useState(2)
+  const [ occasion, setOccasion ] = useState("")
 
 
    function handleSubmit(e) {
@@ -21,18 +27,18 @@ export default function BookingForm({availableTimes, changeTimes}) {
 
    useEffect(() => {
     //const test = new Date().toLocaleDateString().split('/');
-  //console.log(availableTimes)
+  console.log(availableTimes)
   //console.log(seededRandom(1))
 
    },[])
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor="res-date">Choose date</label>
-      <input value={date} onChange={e => setDate(e.target.value)} type="date" id="res-date" />
+      <input value={date} onChange={e => setDate(e.target.value)} type="date" id="res-date" da />
       <label htmlFor="res-time">Choose time</label>
       <select value={time} onChange={e => {
         setTime(e.target.value)
-        changeTimes(e.target.value)
+        //changeTimes(e.target.value)
       }} id="res-time ">
         {availableTimes.map(time => {
           return <option key={time}>{time}</option>
