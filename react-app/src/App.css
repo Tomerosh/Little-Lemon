@@ -1,5 +1,11 @@
 
 main {
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.loading {
+  
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -28,10 +34,10 @@ nav {
   align-content: center;
 }
 #logo {
-  width: clamp(150px, 25vw, 300px);
+  width: clamp(150px, 25vw, 200px);
 }
 .basket {
-  width: clamp(40px, 3vw, 50px);
+  width: clamp(30px, 3vw, 40px);
   cursor: pointer;
 }
 
@@ -53,7 +59,7 @@ nav {
 .navLink{
   font-family: 'IBM';
   font-weight: 700;
-  font-size: clamp(12px, 1.5vw, 22px);
+  font-size: clamp(12px, 1.5vw, 20px);
   color: #495E57;
   text-decoration-line: none;
 }
@@ -356,13 +362,69 @@ section h2 {
   width: clamp(15px, 15%, 32px);
 }
 
-form {
-   display: grid;  gap: 20px; padding-inline: 25vw;
+form section {
+   display: grid;
+   gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #495E57;
 }
 .booking-label{
-  background-color: #495E57;
-  text-align: center;
   font-size: 50px;
+  color: #F4CE14;
+  font-size: clamp(28px, 5vw, 48px) ;
+  font-family: 'Markazi';
+  font-weight: 600;
+
+}
+.input_label{
+  font-size: clamp(16px, 2.5vw, 28px) ;
+  font-weight: 700;
+  font-family: 'IBM';
+}
+
+input::placeholder {
+  color: #9b9b9b;
+}
+
+.book-option {
+  font-size: clamp(14px, 2.5vw, 24px);
+  font-weight: 800;
+  text-align: center;
+  border-radius: 8px;
+  border-width: 2px;
+  height: clamp(30px, 4vw, 50px);
+  font-family: 'IBM';
+
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.num-section {
+  display: grid;
+  grid-auto-flow: column;
+}
+.num-button {
+  width: 50%;
+  justify-self: center;
+  border-radius: 16px;
+  border-width: 0px;
+  background-color: #fadf56;
+  font-weight: 800;
+
+  font-family: 'IBM';
+  font-size: clamp(14px, 2.5vw, 24px);
+  
+}
+
+#res-time {
+  width: 20vw;
+  justify-self: center;
 }
 @media screen and (max-width: 700px) {
 #menu{
@@ -464,7 +526,6 @@ nav #logo {
 section {
   padding-inline: 10vw;
   padding-block: 4vw;
-  
 }
 .card {
   width: 27vw;
